@@ -1,0 +1,241 @@
+body{
+margin: 0%;
+padding: 0%;
+
+}
+.header-principal{
+    position: relative;
+    text-align: center;     /* Para que las letras puedan ajustarse al centro */
+}
+
+.header-enfermeria {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.8);
+    
+}
+
+.Info-licenciatura {
+    position: absolute;
+    left: 50%;     /* Aquí estoy ajustado el eje de las X y Y */
+    top: 50%;       /* Aquí estoy ajustado el eje de las X y Y */
+    transform: translate(-50%, -50%);
+    background-color: rgba(64, 32, 206, 0.505);
+    padding: 10px;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    width: 100%;
+    font-size: medium;
+    color: #FFFF;
+
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
+}
+.Info-licenciatura h3 {
+ text-align: right;
+ font-family: Inter;
+ font-size: 20px;
+ font-weight: 400;
+ line-height: 24px;
+ letter-spacing: 0em;
+ padding-right: 30%;
+}
+
+/* Termina la Parte del header =================================*/
+
+.objetivo-carrera{
+    margin-top: 10%;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.title-nivel-1 {
+        border-bottom: 2px solid blue;
+        width: 50%; /* Ajusta el porcentaje de la barrita */
+        margin: 0 auto; /* Centra horizontalmente el elemento */
+        position: relative;
+        bottom: -10px;
+        font-size: 20px;
+}
+.objetivo-texto p{
+padding-left: 15%;
+padding-right: 10%;    
+text-align: justify;
+margin-top: 10%;
+font-style: italic;
+
+}
+
+.contenedor-imagen-promo {
+margin-top: 5%;
+}
+.imagen-promocion{
+    width: 100%;
+    box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Termina apartado de objetivos de la carrera =====================*/
+.contendor-perfil-egreso {
+    background: linear-gradient( #4addf4,#2846f2, #4addf4);
+    margin-top: 5%;
+    position: relative;
+    display: inline-block;
+    text-align: justify;
+    font-family: Inter;
+    color: #FFFF;
+   padding: 5%;
+   font-weight: bold;
+}
+
+/* Termina el apartado de perfil de egreso ====================================== */
+.contenedor-conocimientos-adquiridos{
+    padding-top: 5%;
+    
+}
+
+.imagen-conocimientos-adquiridos{
+    width: 100%; 
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.8);
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+   
+   
+}
+.texto-conocimientos{
+font-family: Inter;
+}
+.texto-conocimientos-2{
+    padding-left: 8%;
+    font-family: Inter;
+}
+/* Termina el apartado de conocimientos adquiridos */
+
+.imagen-habilidades-adquiridas{
+    width: 96%; 
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.8);
+  margin-left: 2%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+   
+   
+}
+.contenedor-habilidades{
+    padding-top: 5%;
+    background-color: #E5E8EE;
+}
+.texto-habilidades{
+    font-family: Inter;
+   padding-left: 8%;
+   padding-bottom: 5%;
+
+}
+
+/*  Termina contenedor de habilidades ============================================= */
+
+.descarga-plan {
+    justify-content: center;
+    align-items: center;
+    
+}
+.blue_bt {
+    margin-top: 10%;
+    margin-left: 20%;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #001175;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 2px solid #001175;
+   
+    transition: background-color 0.3s ease;
+}
+
+.blue_bt:hover {
+    background-color: #000000;
+}
+
+/* Termina el estilo del boton del plan de estudios */
+
+.contenedor-formulario {
+    display: block;
+    justify-content: space-between;
+    align-items: start;
+    padding: 5%;
+    border: 2px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+}
+.contenedor-formulario h1,h4{
+text-align: center;
+align-items: center;
+}
+
+  .formulario {
+    display: flex;
+    width: 100%;
+  }
+
+  .form-left {
+    flex: 1;
+    text-align: justify;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: Inter;
+  }
+
+  input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    
+  }
+
+  .enviar_solicitud{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #001175;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #001175;
+    transition: background-color 0.3s ease;
+    width: 100%;
+
+  }
+
+  .enviar_solicitud:hover{
+    background-color: #070707;
+    border: 2px solid #020205;
+  }
+
+  .form-right {
+    flex: 1;
+    text-align: center;
+  }
+
+ 
+  @media screen and (max-width: 768px) {
+    .form-right {
+      display: none;
+    }
+  }
+  /* Termina el estilo del formulario */
+
+  .footer {
+    margin: 10px;
+      padding: 5px;
+      text-align: center;
+      color: white;
+      background-color: #001175;
+      font-family: Inter;
+      font-weight: bolder;
+  }
